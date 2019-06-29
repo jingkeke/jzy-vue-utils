@@ -2,12 +2,11 @@ const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-  // entry: './src/main.js',
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '../dist'),
     publicPath: '/dist/',
-    filename: 'build.js',
+    filename: 'jzy_vue_components.min.js',
     library: 'JzyVueComponents',
     libraryTarget: 'umd',
     umdNamedDefine: true

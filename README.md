@@ -1,19 +1,34 @@
 # jzy-vue-utils
-
 vue utils 练习 参考 https://segmentfault.com/a/1190000009090836 ,不过里面对应的 coutup.js 接口变了
 
-> A Vue.js project
+## 使用
+- import 方式
+看了一下上传npm的包，了解如何使用![tree](tree.PNG)
+```js
+<template>
+    <CountTo end-val="100"   ></CountTo>
+</template>
+<script>
+import CountTo from 'jzy-vue-utils'
+export default {
+  components: { CountTo } 
+</script>
+
+```
+- html中使用
+
+
 
 ## Build Setup
-
 ```bash
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
+# 如果是自己测试一下组件 ,配置webpack.config.js 里面放开注释 entry: './src/main.js',
 npm run dev
 
-# build for production with minification
+# build 是调用的buid目录里面的webpack 配置
 npm run build
 ```
 
