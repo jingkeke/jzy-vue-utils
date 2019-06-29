@@ -1,7 +1,7 @@
 {
   "name": "jzy-vue-utils",
   "description": "A Vue.js utils project ,self use ,not matured",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "jingkeke <jingzhengyi@gmail.com>",
   "license": "MIT",
   "main": "dist/jzy_vue_components.min.js",
@@ -14,7 +14,8 @@
     "url": "git+https://github.com/jingkeke/jzy-vue-utils.git"
   },
   "keywords": [
-    "vue","components"
+    "vue",
+    "components"
   ],
   "dependencies": {
     "countup.js": "^2.0.4",
