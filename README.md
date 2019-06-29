@@ -1,8 +1,10 @@
-# jzy-vue-utils
-vue utils 练习 参考 https://segmentfault.com/a/1190000009090836 ,不过里面对应的 coutup.js 接口变了
+# [jzy-vue-utils](https://github.com/jingkeke/jzy-vue-utils)
+- learn how to publish vue components and as utils for myself.
+- vue utils 练习参考[带你封装一个 vue component](https://segmentfault.com/a/1190000009090836) ,不过里面对应的 coutup.js 接口变了
 
 ## 使用
 - import 方式
+
 看了一下上传npm的包，了解如何使用![tree](tree.PNG)
 ```js
 <template>
@@ -16,7 +18,14 @@ export default {
 
 ```
 - html中使用
-
+```html
+<script src="https://unpkg.com/jzy-vue-utils@1.0.1/dist/jzy_vue_components.min.js"></script>
+...
+<div>
+ <count-to end-val="100"   ></count-to>
+</div>
+ 
+```
 
 
 ## Build Setup
