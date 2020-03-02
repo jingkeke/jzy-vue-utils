@@ -7,6 +7,7 @@
   "main": "dist/jzy_vue_components.min.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "updateversion": "npm version patch",
     "build": "cross-env NODE_ENV=production webpack --config=build/webpack.config.js --progress --hide-modules"
   },
   "repository": {
@@ -39,6 +40,6 @@
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1"
+    "webpack-dev-server": "^3.1.11"
   }
 }
