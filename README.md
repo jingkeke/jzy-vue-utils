@@ -13,7 +13,7 @@
 <script>
 import CountTo from 'jzy-vue-utils'
 export default {
-  components: { CountTo } 
+  components: { CountTo }
 </script>
 
 ```
@@ -24,7 +24,7 @@ export default {
 <div>
  <count-to end-val="100"   ></count-to>
 </div>
- 
+
 ```
 
 
@@ -42,3 +42,11 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## package.json
+```
+// 作为import 引入的入口
+ "main": "dist/jzy_vue_components.min.js",
+// 上传哪些文件
+  "files": ["dist"]
+```
